@@ -34,7 +34,9 @@ length of 1000000000 by default. Just type:
 Verify that the for loop is vectorized by reading the vectorization report generated 
 by the compiler. Time the execution of the program for a vector length of 10000000000 by typing:
 
-	bash run.sh 
+```bash
+bash run.sh
+``` 
 
 2. Compare the walltime with versions of the binary that are built without vectorization enabled. Using 
 optimization level zero will ensure that vectorization is disabled (uncomment CFLAGS line in Makefile).
