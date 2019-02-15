@@ -1,7 +1,7 @@
 CC=icc
 
 # Vectorization enabled
-CFLAGS=-Wall -O3 -qopt-report=5 -qopt-report-phase=vec -qopt-report-file=stdout
+CFLAGS=-Wall -fast -qopt-report=5 -qopt-report-phase=vec -qopt-report-file=stdout
 
 # Vectorization disabled
 #CFLAGS=-Wall -O0 -qopt-report=5 -qopt-report-phase=vec -qopt-report-file=stdout
